@@ -22,7 +22,7 @@ These dependencies can also be directly accessed through the `package.json` and 
 ### Clone the repository
 
 ```zsh
-git clone https://github.com/SHA-15/Decentralized-Visa-Application-System.git
+git clone https://github.com/SHA-15/Ethereum-Visa-Application-System.git
 ```
 
 ### Install the required Dependencies
