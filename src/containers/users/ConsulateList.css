@@ -1,0 +1,35 @@
+.main-grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100vw;
+}
+
+.container {
+    border: 2px solid rgb(255, 255, 255, 0.4);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(90deg, rgba(20, 53, 84, 0.304) 0%, rgba(11, 17, 94, 0.5) 50%, rgba(46, 10, 117, 0.681) 100%);
+    ;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
